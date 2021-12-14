@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: #AAB9CF;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* TOP SECTION*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50pxpx;
+    width: 100%;
+}
+
+.link-images{
+    height:25px;
+    width: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #AAB9CF; 
+    font-size:  25px;
+}
+/* Dark/Light Mode Desktop */
+
+#switcher{
+    display: flex;
+}
+
+#dlswitcher p {
+    margin-top: 8px;
+    margin-right: 3px;
+}
+
+#dlswitcher li {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+    list-style-type: none;
+}
+
+#darkmode {
+    background-color: black;
+    border: 3px solid white;
+}
+
+#lightmode {
+    background-color: white;
+    border: 3px solid black;
+}
+
+/* MENU */
+.menu, .controls {
+    display:none;
+}
+.controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menu-control {
+    fill: #fff;
+    margin: 25px;
+}
+.menu {
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    overflow-y: scroll;
+    padding: 15px 30px;
+    position: fixed;
+    transition: all 0.35s ease-in-out;
+    transform: translateX(100%);
+    z-index: 10;
+}
+.menu-open {
+    transform: translateX(0%);
+    opacity: 1;
+}
+.menu a, .menu a:focus, .menu a:visited {
+    color: white;
+    display: block;
+    font-size: 50px;
+    margin: 25px auto;
+    text-align: center;
+    text-decoration: none;
+}
+.menu-close {
+    background-color: white;
+    color: #AAB9CF;
+}
+
+
+
+
+/*Mobile Menu */
+@media screen and (max-width:768px) { 
+
+    #links {
+        display:none;
+    }
+    .menu, .controls {
+        display:block;
+    }
+}
+
+#links a {
+    text-decoration: none;
+    color: #AAB9CF; 
+    font-size:  25px;
+    align-items: center;
+    margin-right: 10px;
+}
+
+/* FOOTER */
+
+#footer {
+    position:relative;
+    bottom:0px;
+    width:100%;
+    text-align: center;
+}
+
+
+
+/* COLOR SCHEME */
+/* https://coolors.co/8693ab-a2b4c9-b0c4d8-b7cce0-d2e2ef-6f7b87-484f57-212227-637074-aab9cf */

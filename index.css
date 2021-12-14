@@ -1,0 +1,38 @@
+
+/* MAIN SECTION */
+
+main {
+    background-image: url(Images/Background.jpeg);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.intro {
+    font-size: 50px;
+    line-height: 0px;
+    color: #D2E2EF;
+}
+
+
+
+.about, .project, .contact, .who {
+    width: 550px;
+    line-height: 40px;
+    text-align: center;
+    font-weight:bold;
+    background-color: rgba(33, 34, 39, .7);
+    border-radius: 25px;
+}
+
+
+.about a, .project a, .contact a{
+    color: #637074;
+    text-decoration: underline;
+
+}
+
