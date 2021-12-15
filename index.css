@@ -48,6 +48,7 @@ main {
         
     }
     .main {
-        background-size: cover;
+        /* background-size: cover; */
+        
     }
 }
