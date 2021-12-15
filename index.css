@@ -3,25 +3,30 @@
 
 main {
     background-image: url(Images/Background.jpeg);
-    background-position: relative;
-    background-size: cover;
+    background-position: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     height:700px;
-    margin: 30px;
-    padding: 20px;
-    font-size: 25px;
+    font-size: 2.8vh;
 }
 
 .intro {
-    font-size: 50px;
+    margin-top: 50px;
+    font-size: 25px;
     line-height: 0px;
     color: #D2E2EF;
+    width:100%;
+
 }
 
+.who {
+    margin-top: 100px;
+}
 
 
 .about, .project, .contact, .who {
     width: 550px;
+    
     line-height: 40px;
     text-align: center;
     font-weight:bold;
@@ -36,3 +41,13 @@ main {
 
 }
 
+@media screen and (max-width:768px) { 
+
+    .about, .project, .contact, .who {
+        width: 400px;
+        
+    }
+    .main {
+        background-size: cover;
+    }
+}
