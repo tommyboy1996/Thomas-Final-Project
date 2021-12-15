@@ -4,7 +4,7 @@
 main {
     background-image: url(Images/Background.jpeg);
     background-position: cover;
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
     height:700px;
     font-size: 2.8vh;
@@ -16,6 +16,7 @@ main {
     line-height: 0px;
     color: #D2E2EF;
     width:100%;
+    padding:10px;
 
 }
 
