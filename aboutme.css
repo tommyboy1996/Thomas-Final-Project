@@ -1,0 +1,21 @@
+.main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: goldenrod;
+}
+.logo {
+    height: 100px;
+    width: 100px;
+    display:inline;
+}
+h1 {
+    text-align: center;
+}
+
+img {
+    position: relative;
+}
