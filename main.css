@@ -120,19 +120,22 @@ a {
     margin-right: 10px;
 }
 
-/* TRANSITION */
+/* TRANSITIONS */
 
+/* About me transtion */
 .transition-1 {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
+    width: 100%;
+    height: 100%;
     z-index: 101;
     background-color: #212227;
     opacity: 0;
     pointer-events: none;
-    transition: 0.5s ease-out;
+    transition: .01s ease-out;
 }
 
 .transition-1.is-active {
@@ -140,11 +143,13 @@ a {
     opacity: 1;
 }
 
+/* Project Page transition */
 .transition-2 {
     position: fixed;
     top: 0;
     left: -100%;
     width: 100%;
+    height: 100%;
     bottom: 0;
     z-index: 101;
     background-color: #212227;
@@ -155,6 +160,7 @@ a {
     left: 0px;
 }
 
+/* Home page transition*/
 .transition-3 {
     position: fixed;
     top: 100%;
@@ -169,6 +175,7 @@ a {
 .transition-3.is-active {
     top: 0;
 }
+/* Contact page transtion */
 
 .transition-4 {
     position: fixed;
