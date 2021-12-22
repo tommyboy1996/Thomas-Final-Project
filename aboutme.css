@@ -1,21 +1,42 @@
-.main {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 p {
     color: goldenrod;
 }
-.logo {
-    height: 100px;
-    width: 100px;
-    display:inline;
-}
-h1 {
-    text-align: center;
+
+
+.intro, .education {
+    display: flex;
 }
 
-img {
+/* Intro */
+
+.intro h1 {
+    font-size: 50px;
+}
+
+.intro-photo {
+    margin: 20px;
+}
+
+
+
+
+
+/* Education */
+
+.education {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.education li {
+    list-style-type: none;
+}
+
+.edu-logo {
+    height: 75%;
+    width: 75%;
+    display:block;
     position: relative;
 }
