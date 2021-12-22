@@ -13,11 +13,24 @@ p {
 
 .intro h1 {
     font-size: 50px;
+    animation: .5s ease-out slideInFromLeft;
+    z-index: 1;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+    transform: translateX(-10%);
+    }
+    100% {
+    transform: translateX(0);
+    }
 }
 
 .intro-photo {
     margin: 20px;
+    z-index: 2;
 }
+
 
 
 
